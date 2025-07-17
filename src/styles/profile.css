@@ -1,0 +1,31 @@
+.profile-card-box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e2e2;
+}
+
+.profile-avatar img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.profile-info {
+  font-size: 0.95rem;
+}
+
+.edit-profile-box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e2e2;
+}
+
+.custom-save-btn {
+  background-color: #4a90a4;
+  color: white;
+  border: none;
+}
+
+.custom-save-btn:hover {
+  background-color: #3a7b8a;
+}

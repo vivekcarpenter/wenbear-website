@@ -1,0 +1,225 @@
+        .login-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .tab-section {
+            display: flex;
+            border-bottom: 1px solid #dee2e6;
+            margin-bottom: 20px;
+            justify-content: space-around;
+        }
+
+        .tab-item {
+            padding: 10px 20px;
+            flex: 1;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 500;
+            color: #6c757d;
+        }
+
+        .tab-item.active {
+            color: #000;
+            border-bottom: 2px solid #000;
+        }
+
+        .form-field {
+            margin-bottom: 20px;
+        }
+
+        .form-field label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .custom-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .custom-input:focus {
+            outline: none;
+            border-color: #86b7fe;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
+
+        .input-icon {
+            position: relative;
+        }
+
+        .input-icon i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #adb5bd;
+        }
+
+        .input-icon input {
+            padding-left: 40px;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .custom-checkbox {
+            display: flex;
+            align-items: center;
+        }
+
+        .forgot-link {
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .custom-btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .login-btn {
+            background: linear-gradient(to right, #555879, #98A1BC);
+            color: white;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 20px 0;
+            color: #6c757d;
+        }
+
+        .social-logins {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            background-color: white;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        /* login-end */
+        /* RegistrationForm.css */
+        .reg-form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .reg-tab-navigation {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .reg-tab-item {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            color: #6c757d;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .reg-tab-active {
+            color: #000;
+            border-bottom: 2px solid #000;
+        }
+
+        .reg-form-field-wrapper {
+            margin-bottom: 15px;
+        }
+
+        .reg-field-label {
+            font-weight: 500;
+            color: #495057;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .reg-text-input {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            color: #495057;
+        }
+
+        .reg-icon-wrapper {
+            position: relative;
+        }
+
+        .reg-input-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+        }
+
+        .reg-input-with-icon {
+            padding-left: 35px;
+        }
+
+        .reg-two-column-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .reg-column-half {
+            flex: 1;
+        }
+
+        .reg-terms-checkbox {
+            margin-top: 15px;
+        }
+
+        .reg-submit-button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: 500;
+            background: linear-gradient(90deg, #2d6fe3 0%, #d4a537 100%);
+            color: white;
+        }
+
+        .input-icon {
+            /* position: relative; */
+        }
+
+        .input-icon i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+        }
