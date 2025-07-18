@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RiMenuLine, RiCloseLine } from "react-icons/ri";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../assets/logo.png"
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,9 +28,10 @@ const Header = () => {
           <div className="flex items-center">
             <a href="#" className="h-12">
               <img
-                src="https://static.readdy.ai/image/eb5862789b21eba2b372cb5fcc94d35c/4a380a59c4416d58b4948c433f8b4e44.jfif"
+                src={logo}
                 alt="WenBear Technologies"
-                className="h-full rounded-md shadow-md"
+                className="h-full w-auto bg-transparent"
+                loading="lazy"
               />
             </a>
           </div>
