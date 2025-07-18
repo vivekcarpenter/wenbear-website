@@ -9,6 +9,7 @@ import {
   RiCheckLine,
   RiArrowRightLine,
   RiCloseLine,
+  RiSmartphoneLine
 } from "react-icons/ri";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -193,35 +194,35 @@ const Services = () => {
       ],
     },
     {
-      icon: RiTeamLine,
-      title: "Dedicated Teams",
+      icon: RiSmartphoneLine, // Aap chaho to koi aur icon bhi use kar sakte ho
+      title: "App Development",
       description:
-        "Skilled development teams that integrate seamlessly with your organization and processes.",
+        "Custom mobile and web applications built to solve your business challenges and engage your users.",
       features: [
-        "Staff Augmentation",
-        "Project-based Teams",
-        "Managed Delivery",
+        "iOS & Android Development",
+        "Cross-Platform Apps",
+        "UI/UX Design & Prototyping",
       ],
       fullDescription: [
         {
-          title: "✅ Expert Talent On-Demand",
+          title: "✅ End-to-End App Development",
           description:
-            "Quick access to skilled professionals like developers, designers, and testers tailored to your needs.",
+            "From ideation to deployment, we handle the full app development lifecycle across platforms.",
         },
         {
-          title: "✅ Seamless Collaboration",
+          title: "✅ Native & Cross-Platform Expertise",
           description:
-            "Teams work as an extension of your in-house staff, using your tools, culture, and processes.",
+            "Build high-performance apps using Swift, Kotlin, React Native, or Flutter, tailored to your needs.",
         },
         {
-          title: "✅ Scalable & Flexible",
+          title: "✅ User-Centered Design",
           description:
-            "Easily scale the team size up or down based on project scope and timeline.",
+            "Engaging and intuitive interfaces crafted through UX research and modern UI practices.",
         },
         {
-          title: "✅ Agile & Transparent Delivery",
+          title: "✅ Scalable Architecture",
           description:
-            "We follow agile practices with full visibility, regular updates, and performance tracking.",
+            "Robust backend and cloud-ready solutions that grow with your user base and business demands.",
         },
       ],
     },
@@ -389,8 +390,6 @@ const ServiceCard = ({ service, onLearnMoreClick }) => (
   </motion.div>
 );
 
-
-
 const ServiceModal = ({ service, handleClose }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -477,9 +476,7 @@ const ServiceModal = ({ service, handleClose }) => {
                   <h4 className="font-semibold text-gray-800 mb-1">
                     {feature.title}
                   </h4>
-                  <p className="text-gray-600 text-sm">
-                    {feature.description}
-                  </p>
+                  <p className="text-gray-600 text-sm">{feature.description}</p>
                 </li>
               ))}
             </ul>
@@ -489,7 +486,5 @@ const ServiceModal = ({ service, handleClose }) => {
     </motion.div>
   );
 };
-
-
 
 export default Services;

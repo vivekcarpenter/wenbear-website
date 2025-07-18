@@ -165,7 +165,7 @@ const Blogs = () => {
             onClick={() => setSelectedBlog(null)}
           >
             <motion.div
-              className="bg-white max-w-2xl w-full p-6 rounded-lg relative shadow-lg overflow-y-auto max-h-[90vh]"
+              className="bg-white max-w-2xl w-full p-6 rounded-lg relative shadow-lg overflow-y-auto max-h-[90vh] hide-scrollbar"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}

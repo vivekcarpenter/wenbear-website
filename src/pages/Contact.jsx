@@ -48,7 +48,7 @@ const Contact = () => {
     {
       icon: <RiPhoneLine className="text-blue-600 text-xl" />,
       title: "Call Us",
-      content: "+91 9876543210",
+      content: "+91 9871331699",
     },
   ];
 
